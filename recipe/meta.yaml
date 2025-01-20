@@ -1,5 +1,5 @@
 {% set name = "beangulp" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/beangulp-{{ version }}.tar.gz
-  sha256: 1fd131c76e5fda8c056efcc2f8a0d2bf5cd8141ef29060762601358f80f4a9b5
+  sha256: 5c908c45c62c07c4efadd0b03d3cdd145ad3b5e2bab5f5f277e0093a5891241a
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   host:
